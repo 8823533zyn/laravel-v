@@ -17,6 +17,9 @@ Route::get('/', function () {
 Route::get('/afei', function () {
     return view('welcome');
 });
+Route::get('/afeiv', function () {
+    return view('welcome');
+});
 Route::get('view','ViewController@index');
 /*
 |--------------------------------------------------------------------------
